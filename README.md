@@ -12,6 +12,10 @@ In this method I reacted a function that accepts a List of Strings representing 
 
 ## [Lab-6: Composition and Inheritance, Part 1](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab5-inheritance)
 
-In this lab, I created two classes to represent reviews of restaurants and make it works to get the requeired results without using Inheritence or interfaces.
+In this lab, I created two classes to represent reviews of restaurants and make it works to get the required results without using Inheritance or interfaces.
 
 ***
+
+## [Lab-7: Composition and Inheritance, Part 2](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab5-inheritance)
+
+In this lab I used Interfaces to prevent reduplicate the code.
