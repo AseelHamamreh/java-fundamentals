@@ -9,7 +9,8 @@ public class Review {
     public Review( String author, String body, double stars) {
         this.author=author;
         this.body=body;
-        this.stars= stars;
+        this.stars = setStars(stars);
+
     }
 
     public String getAuthor() {
@@ -32,8 +33,13 @@ public class Review {
         return stars;
     }
 
-    public void setStars(double stars) {
-        this.stars = stars;
+    public double setStars(double stars) {
+        if(stars > 5 || stars <0){
+            return 0.0d;
+        }
+        else{
+            return stars;
+        }
     }
 
     @Override
