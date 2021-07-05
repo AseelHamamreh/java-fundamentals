@@ -5,12 +5,20 @@ public class Review {
     private String author;
     private String body;
     private double stars;
+    private String movies;
 
     public Review( String author, String body, double stars) {
         this.author=author;
         this.body=body;
         this.stars = setStars(stars);
 
+    }
+
+    public Review(String author, String body, double stars, String movies) {
+        this.author=author;
+        this.body=body;
+        this.stars = setStars(stars);
+        this.movies=movies;
     }
 
     public String getAuthor() {
@@ -34,7 +42,7 @@ public class Review {
     }
 
     public double setStars(double stars) {
-        if(stars > 5 || stars <0){
+        if(this.stars > 5 || this.stars <0){
             return 0.0d;
         }
         else{
@@ -42,12 +50,24 @@ public class Review {
         }
     }
 
+
     @Override
     public String toString() {
-        return "Review{" +
-                "author='" + author + '\'' +
-                ", body='" + body + '\'' +
-                ", stars=" + stars +
-                '}';
+        if(this.movies != null){
+            return "Review{" +
+                    "author='" + author + '\'' +
+                    ", body='" + body + '\'' +
+                    ", stars=" + stars +
+                    ", movies='" + movies + '\'' +
+                    '}';
+        }
+        else {
+            return "Review{" +
+                    "author='" + author + '\'' +
+                    ", body='" + body + '\'' +
+                    ", stars=" + stars +
+                    '}';
+        }
+
     }
 }
