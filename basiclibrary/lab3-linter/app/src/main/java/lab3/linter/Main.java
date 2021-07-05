@@ -10,9 +10,9 @@ public class Main {
 
         TallyingElection test = new TallyingElection();
         List<String> votes = new ArrayList<>();
-        votes.add("Bush");
-        votes.add("Bush");
-        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Shrub");
+        votes.add("Shrub");
         votes.add("Shrub");
         votes.add("Hedge");
         votes.add("Shrub");

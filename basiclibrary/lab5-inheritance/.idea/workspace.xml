@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ad68c3-16c1-4291-a42b-63b100f6a0e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/ReviewInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3-linter/app/src/main/java/lab3/linter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3-linter/app/src/main/java/lab3/linter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3-linter/app/src/main/java/lab3/linter/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3-linter/app/src/main/java/lab3/linter/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/lab5/inheritance/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/lab5/inheritance/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/lab5/inheritance/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../code challenges/401-data-structures-and-algorithms/challenges/LinkedList" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />

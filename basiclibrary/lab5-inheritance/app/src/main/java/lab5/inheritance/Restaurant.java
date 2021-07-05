@@ -2,7 +2,7 @@ package lab5.inheritance;
 
 import java.util.ArrayList;
 
-public class Restaurant {
+public class Restaurant implements ReviewInterface {
     private String name;
     private String priceCategory;
     private ArrayList<Review> myReviews;
@@ -11,10 +11,6 @@ public class Restaurant {
         this.name=name;
         this.priceCategory=priceCategory;
         this.myReviews=new ArrayList<>();
-    }
-
-    public void newReview(Review newReview) {
-        myReviews.add(newReview);
     }
 
 
@@ -43,6 +39,10 @@ public class Restaurant {
         return priceCategory;
     }
 
+    @Override
+    public void newReview(Review newReview) {
+        myReviews.add(newReview);
+    }
 
     @Override
     public String toString() {
@@ -52,4 +52,5 @@ public class Restaurant {
                 ", myReviews=" + myReviews +
                 '}';
     }
+
 }

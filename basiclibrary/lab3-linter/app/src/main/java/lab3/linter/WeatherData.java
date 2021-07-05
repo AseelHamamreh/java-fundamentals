@@ -35,7 +35,6 @@ public class WeatherData {
         for (int i = Collections.min(unique); i < Collections.max(unique); i++) {
             if (!unique.contains(i)) {
                 System.out.println("Never saw temperature: " + i);
-
             }
         }
     }
