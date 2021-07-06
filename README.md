@@ -19,6 +19,6 @@ In this lab, I created two classes to represent reviews of restaurants and make 
 ## [Lab-7: Composition and Inheritance, Part 2](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab5-inheritance)
 
 In this lab I used Interfaces to prevent reduplicate the code.
-several classes are added to be reviewd and one of the **Theater** class is have new methods to add and remove elements. also, it has a new properity to be reviewd. 
+several classes are added to be reviewd and one of the **Theater** class has new methods to add and remove elements. also, it has a new properity to be reviewd. 
 
 
