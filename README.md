@@ -1,6 +1,6 @@
 # java-fundamentals
 
-## [lab-1: Maps, File I/O, and Testing](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab1)
+## [Lab: 01 - Java primitives and control flow](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab1)
 
 ### pluralize method :
 a method accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
@@ -10,6 +10,20 @@ a method that accepts an integer n and flips coins until n heads are flipped in 
 
 ### clock method :
 a method hat uses Java’s built-in LocalDateTime object to constantly print out the current time to the console, second by second. The program should run until someone manually kills it with CTRL-C or presses the “stop” button in their IDE. Each time should only be printed once. Your program should detect when the seconds increase and only print something out when the timestamp changes.
+
+## [Lab-02: basicslibrary](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab2)
+
+### Rolling Dice method :
+a method that accepts an integer n and rolls a six-sided dice n times. The method should return an array containing the values of the rolls.
+
+### Contains Duplicates method :
+a method that returns true or false depending on whether the array contains duplicate values.
+
+### Calculating Averages method :
+a method that accepts an array of integers and calculates and returns the average of all the values in the array.
+
+### Arrays of Arrays method :
+Given an array of arrays calculate the average value for each array and return the array with the lowest average.
 
 ## [lab-3: Maps, File I/O, and Testing](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab3-linter)
 
