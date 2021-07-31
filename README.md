@@ -1,6 +1,6 @@
 # java-fundamentals
 
-## [lab-1: Maps, File I/O, and Testing](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab3-linter)
+## [lab-1: Maps, File I/O, and Testing](https://github.com/AseelHamamreh/java-fundamentals/tree/main/basiclibrary/lab1)
 
 ### pluralize method :
 a method accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
